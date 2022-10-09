@@ -18,7 +18,7 @@ function App() {
   return (
     <Fragment>
       {cartIsShow && <Cart />}
-      <Header />
+      <Header onShowCart={showCartHandler} />
       <main>
         <Meals />
       </main>
